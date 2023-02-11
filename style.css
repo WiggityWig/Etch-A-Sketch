@@ -1,15 +1,18 @@
 .box{
-    width: 1px;
-    height:1px;
-    border: .00001px solid white;
+    width: 10px;
+    height:10px;
+   /* border: 0.00001px solid black;*/
     margin: 0;
+
+  
 }
 
 #box-container{
     display: flex;
     flex-wrap: wrap;
-    width: 160px;
-    height: 160px;
+    width: 500px;
+    height: 500px;
     border-style: solid;
+    flex: 1;
 }
 
