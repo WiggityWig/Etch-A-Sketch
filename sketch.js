@@ -2,7 +2,7 @@ const box = document.getElementById('box');
 const boxContainer = document.getElementById('box-container')
 const elements = document.querySelectorAll('.box');
 console.log(elements);
-appendNCopies(6400, box,boxContainer);
+appendNCopies(2500, box,boxContainer);
 
 //add event listener for mouseover for id of box.
 (document.querySelectorAll('.box')).forEach((item) => {
